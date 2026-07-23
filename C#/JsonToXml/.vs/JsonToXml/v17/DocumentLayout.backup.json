@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{142125F5-CB02-42AB-B7FF-56033923043C}|JsonToXml\\JsonToXml.csproj|c:\\antic\\git\\compass programs\\jsontoxml\\jsontoxml\\jsontoxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142125F5-CB02-42AB-B7FF-56033923043C}|JsonToXml\\JsonToXml.csproj|solutionrelative:jsontoxml\\jsontoxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57E8F39-2A93-4012-812F-8F0119BBD8DE}|JSONConsole\\JSONConsole.csproj|C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\jsonconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57E8F39-2A93-4012-812F-8F0119BBD8DE}|JSONConsole\\JSONConsole.csproj|solutionrelative:jsonconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED3F196-611D-4E14-815B-A23A1875AF46}|Tester\\Tester.csproj|C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\tester\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED3F196-611D-4E14-815B-A23A1875AF46}|Tester\\Tester.csproj|solutionrelative:tester\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED3F196-611D-4E14-815B-A23A1875AF46}|Tester\\Tester.csproj|C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\tester\\tester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CED3F196-611D-4E14-815B-A23A1875AF46}|Tester\\Tester.csproj|solutionrelative:tester\\tester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\JSONConsole\\Program.cs",
+              "RelativeDocumentMoniker": "JSONConsole\\Program.cs",
+              "ToolTip": "C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\JSONConsole\\Program.cs",
+              "RelativeToolTip": "JSONConsole\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:04:58.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JsonToXml.cs",
+              "DocumentMoniker": "C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\JsonToXml\\JsonToXml.cs",
+              "RelativeDocumentMoniker": "JsonToXml\\JsonToXml.cs",
+              "ToolTip": "C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\JsonToXml\\JsonToXml.cs",
+              "RelativeToolTip": "JsonToXml\\JsonToXml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2022-12-14T16:56:00.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tester.cs [Design]",
+              "DocumentMoniker": "C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\Tester\\Tester.cs",
+              "RelativeDocumentMoniker": "Tester\\Tester.cs",
+              "ToolTip": "C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\Tester\\Tester.cs [Design]",
+              "RelativeToolTip": "Tester\\Tester.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2022-12-14T16:55:38.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\Tester\\Program.cs",
+              "RelativeDocumentMoniker": "Tester\\Program.cs",
+              "ToolTip": "C:\\ANTIC\\GIT\\Compass Programs\\JsonToXml\\Tester\\Program.cs",
+              "RelativeToolTip": "Tester\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2022-12-14T16:55:34.85Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

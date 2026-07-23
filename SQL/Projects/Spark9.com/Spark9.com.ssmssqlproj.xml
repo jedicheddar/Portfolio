@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Spark9.com">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="antic-dev.database.windows.net:johnoliver">
+          <Created>2022-08-25T08:33:33.1900608-05:00</Created>
+          <Type>SQL</Type>
+          <Server>antic-dev.database.windows.net</Server>
+          <UserName>johnoliver</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="2021 Form Names.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>2021 Form Names.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Activate a CPL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Activate a CPL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Activate a new state.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Activate a new state.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Activate 2021 Policies.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Activate 2021 Policies.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Activate a Policy Jacket by State.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Activate a Policy Jacket by State.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Activate a Policy Jacket.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Activate a Policy Jacket.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Add User to Role.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Add User to Role.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Change Username.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Change Username.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Correct Office ID for Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Correct Office ID for Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL Beneficiaries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CPL Beneficiaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL by Agent.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CPL by Agent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL by Code.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CPL by Code.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL by Date.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CPL by Date.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL by ID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CPL by ID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL by State.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CPL by State.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL by Username and GFNumber.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CPL by Username and GFNumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL by Username.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CPL by Username.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL Properties.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CPL Properties.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL Search.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CPL Search.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CPL Templates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>CPL Templates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create a CPL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Create a CPL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create a Policy Jacket.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Create a Policy Jacket.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Deactivate Old Commitments.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Deactivate Old Commitments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Deactive all Policy Jackets by Form.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Deactive all Policy Jackets by Form.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Deactive all Policy Jackets by ID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Deactive all Policy Jackets by ID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Delete a CPL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Delete a CPL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Delete a Policy Jacket.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Delete a Policy Jacket.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get API Request.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get API Request.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Attorneys.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get Attorneys.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Forms by State To Activate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Get Forms by State To Activate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Forms by State.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Get Forms by State.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Forms Grouped By Use.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get Forms Grouped By Use.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Log.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get Log.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get PAR Requests.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get PAR Requests.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Policy.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Get Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get User By Name.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get User By Name.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get User.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get User.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get UserFiles.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get UserFiles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Users By Role.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get Users By Role.sql</FullPath>
+        </FileNode>
+        <FileNode Name="License States.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>License States.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Migrate CPL from Test to Production.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Migrate CPL from Test to Production.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Office by State.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Office by State.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Office by Username.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Office by Username.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pull CPL for Compass API.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Pull CPL for Compass API.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Pull Policy for Compass API.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Pull Policy for Compass API.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Qualia Form IDs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Qualia Form IDs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Transaction Log By CPL Code.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Transaction Log By CPL Code.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Transaction Log By Policy ID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Transaction Log By Policy ID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Transaction Log By User.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Transaction Log By User.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Transaction Log Count By Vendor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Transaction Log Count By Vendor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update CPL.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update CPL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update FooterDescription on CPL.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update FooterDescription on CPL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update Form Weights.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update Form Weights.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update FormName Production.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update FormName Production.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update FormName Test.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update FormName Test.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update FormState.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update FormState.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update FormTypes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update FormTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update Policy Liability Limit.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update Policy Liability Limit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update Policy Templates Active ID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update Policy Templates Active ID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update Policy To Paid.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update Policy To Paid.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update Signature Offset Production.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Update Signature Offset Production.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update Signature Offset Test.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:antic-dev.database.windows.net:False:johnoliver</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>antic-dev.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>johnoliver</AssociatedConnUserName>
+          <FullPath>Update Signature Offset Test.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Validate CPL Counts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Validate CPL Counts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Validate CPL.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Validate CPL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Void Test Policies.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Void Test Policies.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

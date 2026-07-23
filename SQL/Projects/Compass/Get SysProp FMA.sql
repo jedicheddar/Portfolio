@@ -1,0 +1,15 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT [appCode]
+      ,[objAction]
+      ,[objProperty]
+      ,[objID]
+      ,[objValue]
+      ,[objName]
+      ,[objDesc]
+      ,[objRef]
+      ,[lastModified]
+      ,[modifiedBy]
+      ,[comments]
+FROM   [COMPASS].[dbo].[sysprop]
+WHERE  [appCode] = 'FMA'
+ORDER BY [appCode], [objAction], [objProperty], [objID]

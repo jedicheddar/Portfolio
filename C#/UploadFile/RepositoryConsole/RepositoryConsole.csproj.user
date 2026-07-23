@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>"QW63f7ff98tsXFKkwqDQFv07FgiGPZx3%24%24H5TluRL4Ok0gaIvXrdE4Mhf2BHjy8EE8" "/dev/Agent/097318" "C:\Users\joliver\Documents\ops.xml"</StartArguments>
+  </PropertyGroup>
+</Project>

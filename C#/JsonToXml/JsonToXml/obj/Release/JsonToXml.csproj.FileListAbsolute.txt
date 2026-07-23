@@ -1,0 +1,14 @@
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\bin\Release\JsonToXml.dll
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\bin\Release\Newtonsoft.Json.dll
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\bin\Release\Newtonsoft.Json.xml
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\obj\Release\JsonToXml.csprojAssemblyReference.cache
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\obj\Release\JsonToXml.csproj.CoreCompileInputs.cache
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\obj\Release\JsonToXml.csproj.CopyComplete
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\obj\Release\JsonToXml.dll
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JsonToXml\bin\Release\JsonToXml.dll
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JsonToXml\bin\Release\Newtonsoft.Json.dll
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JsonToXml\bin\Release\Newtonsoft.Json.xml
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JsonToXml\obj\Release\JsonToXml.csproj.AssemblyReference.cache
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JsonToXml\obj\Release\JsonToXml.csproj.CoreCompileInputs.cache
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JsonToXml\obj\Release\JsonToXml.csproj.CopyComplete
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JsonToXml\obj\Release\JsonToXml.dll

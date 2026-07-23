@@ -1,0 +1,228 @@
+#content, #feedback-success {
+  margin: auto;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 0 4px 0px rgba(0, 0, 0, .1);
+}
+
+#agentlogo {
+  font-size: 48px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+hr {
+  width: 100%;
+}
+
+#classname {
+  margin: auto;
+  text-align: center;
+}
+
+#classname h1 {
+  font-size: 20px;
+  margin: 5px;
+}
+
+#classname span {
+  font-size: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+.hasError {
+  margin: 10px auto;
+  border: 1px solid #CC0000;
+  border-radius: 5px;
+  background-color: #FFB3B3;
+  color: #CC0000;
+  padding: 5px;
+  width: calc(100% - 14px);
+}
+
+.bigFont {
+  font-size: 30px;
+}
+
+#user-input {
+  margin: auto;
+  width: 95%;
+}
+
+#user-input > div {
+  margin-bottom: 1em;
+  position: relative;
+}
+
+#user-input > div > label {
+  position: absolute;
+  transition: all 0.2s;
+}
+
+input:placeholder-shown + label {
+  cursor: text;
+  color: #666;
+  left: 5px;
+  top: 5px;
+}
+
+input[type="checkbox"] {
+  margin-top: 2px;
+  margin-left: 0;
+}
+
+input[type="checkbox"] + label {
+  top: -2px;
+  left: 18px;
+  margin-left: 5px;
+}
+
+select.credit-type {
+  position: absolute;
+  top: -5px;
+  left: 175px;
+  width: calc(100% - 175px);
+  padding: 5px;
+}
+
+select.credit-type + label.credit-type {
+  font-size: 10px;
+  top: -14px;
+  left: 185px;
+  cursor: default;
+  background-color: #FFF;
+  color: #666;
+  padding: 0 2px;
+}
+
+input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+input[type="text"]:not(:placeholder-shown) + label,
+input[type="text"]:focus + label {
+  font-size: 10px;
+  top: -10px;
+  left: 10px;
+  cursor: default;
+  background-color: #FFF;
+  color: #666;
+  padding: 0 2px;
+}
+
+input[type="text"] {
+  width: calc(100% - 14px);
+  padding: 5px;
+}
+
+#register {
+  clear: both;
+  margin: auto;
+  padding: 7px;
+  padding-top: 5px;
+  font-size: 1em;
+  text-align: center;
+}
+
+#register button {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #005295;
+  background-color: #FFFFFF;
+  color: #005295;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#register button:disabled {
+  border-color: #777;
+  background-color: #BBBBBB;
+  color: #777;
+  cursor: default;
+}
+
+#wait {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  color: #FFF;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15%;
+}
+
+#wait #spinner {
+  margin: 10px auto;
+	border: 8px solid #eff6ff;
+	border-right-color: #bedbff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* specific to the feedback page */
+select.score {
+  top: -5px;
+  left: 0px;
+  width: 100%;
+  padding: 5px;
+}
+
+select.score + label.score {
+  font-size: 10px;
+  top: -10px;
+  left: 10px;
+  cursor: default;
+  background-color: #FFF;
+  color: #666;
+  padding: 0 2px;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+  width: calc(100% - 22px);
+  padding: 10px;
+}
+
+textarea + label {
+  font-size: 10px;
+  top: -15px;
+  left: 10px;
+  cursor: default;
+  background-color: #FFF;
+  color: #666;
+  padding: 0 2px;
+}

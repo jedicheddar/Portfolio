@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 11.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Spark9.com", "Spark9.com\Spark9.com.ssmssqlproj", "{E0C055A3-E86E-4B7C-B0F3-ECFF2788BA6E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Compass", "Compass\Compass.ssmssqlproj", "{6E6E7017-0DD4-4134-BAD2-864FEE41A947}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "GP", "GP\GP.ssmssqlproj", "{375CD425-9A3E-4AF6-AC31-F3C4060B37E4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Compass Reports", "Compass Reports\Compass Reports.ssmssqlproj", "{09B31CB8-4C5F-4356-94F6-41F28C483C28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0C055A3-E86E-4B7C-B0F3-ECFF2788BA6E}.Default|Default.ActiveCfg = Default
+		{6E6E7017-0DD4-4134-BAD2-864FEE41A947}.Default|Default.ActiveCfg = Default
+		{375CD425-9A3E-4AF6-AC31-F3C4060B37E4}.Default|Default.ActiveCfg = Default
+		{09B31CB8-4C5F-4356-94F6-41F28C483C28}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

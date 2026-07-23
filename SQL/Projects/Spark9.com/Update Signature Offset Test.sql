@@ -1,0 +1,36 @@
+DECLARE @state varchar(2) = '', -- Enter the state
+        @form varchar(200) = '', -- Enter the form name
+        @offset int = 17,
+        @indent int = 18,
+        @dateIndent int = 170,
+        @count int = 0
+
+SELECT @count=count(*) FROM [dbo].[t_policyforms] WHERE [State] = @state AND [FormName] = @form
+
+IF (@count >= 1)
+BEGIN
+  IF (@offset > 0)
+  BEGIN
+    UPDATE  [dbo].[t_policyforms]
+    SET     [SignatureOffset] = @offset,
+            [SignatureIndent] = @indent,
+            [SignatureDateIndent] = @dateIndent
+    WHERE   [State] = @state
+    AND     [FormName] = @form
+    AND     [Active] = 1
+  END
+
+  SELECT  [PFormID],
+          [SignatureOffset],
+          [SignatureIndent],
+          [SignatureDateIndent]
+  FROM    [dbo].[t_policyforms]
+  WHERE   [State] = @state
+  AND     [FormName] = @form
+  AND     [Active] = 1
+  ORDER BY [PFormId]
+END
+ELSE
+BEGIN
+  PRINT 'The form is invalid'
+END

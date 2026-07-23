@@ -1,0 +1,18 @@
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\bin\Debug\JsonToXml.dll
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\bin\Debug\JsonToXml.pdb
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\obj\Debug\JsonToXml.csprojAssemblyReference.cache
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\obj\Debug\JsonToXml.csproj.CoreCompileInputs.cache
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\obj\Debug\JsonToXml.dll
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\obj\Debug\JsonToXml.pdb
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\bin\Debug\Newtonsoft.Json.dll
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\bin\Debug\Newtonsoft.Json.xml
+C:\Users\joliver\Documents\Support\JSON Compass\JSONtoXML\JsonToXml\obj\Debug\JsonToXml.csproj.CopyComplete
+C:\Users\joliver\Documents\Support\Compass\Programs\JsonToXml\JsonToXml\bin\Debug\JsonToXml.dll
+C:\Users\joliver\Documents\Support\Compass\Programs\JsonToXml\JsonToXml\bin\Debug\JsonToXml.pdb
+C:\Users\joliver\Documents\Support\Compass\Programs\JsonToXml\JsonToXml\bin\Debug\Newtonsoft.Json.dll
+C:\Users\joliver\Documents\Support\Compass\Programs\JsonToXml\JsonToXml\bin\Debug\Newtonsoft.Json.xml
+C:\Users\joliver\Documents\Support\Compass\Programs\JsonToXml\JsonToXml\obj\Debug\JsonToXml.csprojAssemblyReference.cache
+C:\Users\joliver\Documents\Support\Compass\Programs\JsonToXml\JsonToXml\obj\Debug\JsonToXml.csproj.CoreCompileInputs.cache
+C:\Users\joliver\Documents\Support\Compass\Programs\JsonToXml\JsonToXml\obj\Debug\JsonToXml.csproj.CopyComplete
+C:\Users\joliver\Documents\Support\Compass\Programs\JsonToXml\JsonToXml\obj\Debug\JsonToXml.dll
+C:\Users\joliver\Documents\Support\Compass\Programs\JsonToXml\JsonToXml\obj\Debug\JsonToXml.pdb

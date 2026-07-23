@@ -1,0 +1,688 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Compass">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="polk:ANTIC\joliver">
+          <Created>2020-12-31T09:38:55.8136195-06:00</Created>
+          <Type>SQL</Type>
+          <Server>polk</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="polk:sa">
+          <Created>2020-12-30T11:39:02.9258076-06:00</Created>
+          <Type>SQL</Type>
+          <Server>polk</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="taft:ANTIC\joliver">
+          <Created>2021-01-04T13:26:02.9803956-06:00</Created>
+          <Type>SQL</Type>
+          <Server>taft</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="taft:sa">
+          <Created>2021-01-07T14:33:51.1190569-06:00</Created>
+          <Type>SQL</Type>
+          <Server>taft</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>COMPASS_DVLP</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Activate State.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Activate State.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Alert Validation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Alert Validation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Alter Sequences.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Alter Sequences.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AP Validation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>AP Validation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AR Validation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>AR Validation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Claim Validation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Claim Validation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Distribution Validation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Distribution Validation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Correct GP and Compass Batches.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Correct GP and Compass Batches.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Correct Numbers on BatchForm.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Correct Numbers on BatchForm.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Correct Policy for FileNumber.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Correct Policy for FileNumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create APINVD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create APINVD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create New User.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Create New User.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Delete Payable Invoice.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Delete Payable Invoice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Education Validation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Education Validation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Find AgentID for Name.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Find AgentID for Name.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Find Table by Column Name.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Find Table by Column Name.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Activity For Agent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Get Activity For Agent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Agent Application.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get Agent Application.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Agent For State.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Get Agent For State.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Agents Over Limit.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get Agents Over Limit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Alert For Agent.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get Alert For Agent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get BatchForm.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get BatchForm.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Claim Reserve Balance.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get Claim Reserve Balance.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Counts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get Counts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get CPL For Agent.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get CPL For Agent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Policy For Agent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Get Policy For Agent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get Qualia.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Get Qualia.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysAction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Get SysAction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysCode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get SysCode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysDest.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get SysDest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysDoc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get SysDoc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysIndex.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get SysIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysKey.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Get SysKey.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysLock.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get SysLock.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysLog File.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get SysLog File.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysLog Pareto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Get SysLog Pareto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysLog Times.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get SysLog Times.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysLog User.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get SysLog User.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysLog.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get SysLog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysProp.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get SysProp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysQueue.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Get SysQueue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysUser By Role.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Get SysUser By Role.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get SysUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Get SysUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Import QAR Audits.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Import QAR Audits.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysAction For Order.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert SysAction For Order.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysAction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert SysAction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysCode AgentPreference.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysCode AgentPreference.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysCode ClaimAttribute.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysCode ClaimAttribute.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysCode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert SysCode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysDest.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysDest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysKey.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert SysKey.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Accounts Receivable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert SysProp Accounts Receivable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Agency Report.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Agency Report.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Agent Activity.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Agent Activity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Agent Filter.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Agent Filter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Agent Manager.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Agent Manager.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Agent Note.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Agent Note.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Agent View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Agent View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Alert.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Alert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Auditor.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Auditor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp CAM.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp CAM.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp ClaimAttribute List.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp ClaimAttribute List.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp ClaimDescription.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp ClaimDescription.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Config.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Config.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Descriptions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Descriptions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Document.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Document.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp ListBuilder.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp ListBuilder.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp OPS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp OPS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Owners.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Owners.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Queue.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Queue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Reference.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Reference.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Region.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Region.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp Reserve Limit.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp Reserve Limit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp SEARCH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert SysProp SEARCH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp SendEmail.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp SendEmail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysProp.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysProp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert SysRole.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Insert SysRole.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Migrate QAR Data.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Migrate QAR Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Migrate SysAction.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Migrate SysAction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Migrate SysCode.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Migrate SysCode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Migrate SysProp.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Migrate SysProp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Person Validation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Person Validation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="QAR Validation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>QAR Validation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Reassign Policies.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Reassign Policies.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Report Gap.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Report Gap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Reported Policies.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Reported Policies.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Reprocess Batch.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Reprocess Batch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Set Payable to Approved.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Set Payable to Approved.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Set QAR Back to Active.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Set QAR Back to Active.sql</FullPath>
+        </FileNode>
+        <FileNode Name="State Batch Report.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>State Batch Report.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TPS Transaction Log Count for SoftPro.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TPS Transaction Log Count for SoftPro.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TPS Validation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>TPS Validation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Un-Void a Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Un-Void a Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update State Information.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update State Information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update SysAction Name.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Update SysAction Name.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update SysAction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Update SysAction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update SysProp ClaimAdjustmentRequest.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update SysProp ClaimAdjustmentRequest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update SysProp SendEmail.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Update SysProp SendEmail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update SysUser Role.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:polk:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>polk</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Update SysUser Role.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update SysUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Update SysUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Validate Agent Activity.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Validate Agent Activity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Validate Hold Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Validate Hold Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Validate State Information.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:taft:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>taft</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Validate State Information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Zeroing out policy numbers.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Zeroing out policy numbers.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

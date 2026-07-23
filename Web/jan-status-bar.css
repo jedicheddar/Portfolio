@@ -1,0 +1,159 @@
+@import 'https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css';
+
+/**
+ * Status Bar
+ */
+#progress-wrapper {
+  margin-top: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.progress-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #CCCCCC;
+  width: 20%;
+  flex: 1;
+}
+
+.progress-item::before {
+  position: absolute;
+  content: "";
+  border-bottom: 5px solid #CCCCCC;
+  width: 100%;
+  top: 20px;
+  left: -50%;
+  z-index: 2;
+}
+
+.progress-item::after {
+  position: absolute;
+  content: "";
+  border-bottom: 5px solid #CCCCCC;
+  width: 100%;
+  top: 20px;
+  left: 50%;
+  z-index: 2;
+}
+
+.progress-item .progress-counter {
+  position: relative;
+  z-index: 5;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #CCCCCC;
+  margin-bottom: 6px;
+}
+
+.progress-item.active .progress-name {
+  color: #22AA5D;
+}
+
+.progress-item.active .progress-counter {
+  background-color: #22AA5D;
+}
+
+.progress-item.completed .progress-name {
+  color: #005295;
+}
+
+.progress-item.completed .progress-counter {
+  background-color: #005295;
+}
+
+.progress-item.completed::after {
+  border-color: #005295;
+  z-index: 3;
+}
+
+.progress-item:first-child::before {
+  content: none;
+}
+.progress-item:last-child::after {
+  content: none;
+}
+/**
+ * The wait spinner
+ */
+#wait {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  color: #FFF;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15%;
+}
+
+#wait #spinner {
+  margin: 10px auto;
+  border: 16px solid #FFFFFF;
+  border-radius: 50%;
+  border-top: 16px solid #CCCCCC;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/**
+ * Status Message
+ */
+#loginMessage, #contentMessage {
+  clear: both;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 5px;
+  padding-top: 5px;
+  border: 1px solid;
+  color: #000000;
+  background-color: #FFFFFF;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* only used for the message for the login */
+#loginMessage {
+  font-size: 0.8em;
+  max-width: 350px;
+}
+
+#loginMessage.good, #contentMessage.good {
+  border-color: #22AA5D;
+  background-color: #85E0AC;
+  color: #22AA5D;
+}
+
+#loginMessage.bad, #contentMessage.bad {
+  border-color: #CC0000;
+  background-color: #FFB3B3;
+  color: #CC0000;
+}

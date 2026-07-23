@@ -1,0 +1,15 @@
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\bin\x86\Release\Tester.exe.config
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\bin\x86\Release\Tester.exe
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\bin\x86\Release\Tester.pdb
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\bin\x86\Release\JsonToXml.dll
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\bin\x86\Release\Newtonsoft.Json.dll
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\bin\x86\Release\Newtonsoft.Json.xml
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\obj\x86\Release\Tester.csproj.AssemblyReference.cache
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\obj\x86\Release\Tester.csproj.SuggestedBindingRedirects.cache
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\obj\x86\Release\Tester.Tester.resources
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\obj\x86\Release\Tester.Properties.Resources.resources
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\obj\x86\Release\Tester.csproj.GenerateResource.cache
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\obj\x86\Release\Tester.csproj.CoreCompileInputs.cache
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\obj\x86\Release\Tester.csproj.CopyComplete
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\obj\x86\Release\Tester.exe
+C:\ANTIC\GIT\Compass Programs\JsonToXml\Tester\obj\x86\Release\Tester.pdb

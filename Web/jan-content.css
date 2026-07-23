@@ -1,0 +1,206 @@
+#tm-main {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+#content {
+  display: none;
+  text-align: left !important;
+}
+
+#content a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+#content a:hover {
+  text-decoration: none;
+}
+
+textarea {
+   font-family: inherit;
+}
+
+/**
+ * Header
+ */
+#content #header {
+  margin-bottom: 15px;
+}
+
+#content #header div {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  font-size: 1em;
+}
+
+#content #header #logout {
+  float: right;
+  text-align: right;
+}
+
+#content #header #title p, #content #header #logout p {
+  margin: 0;
+}
+
+/**
+ * Documents
+ */
+#content #documents ul {
+  margin-top: 15px;
+}
+ 
+#content #dropFile {
+  clear: both;
+  background-color: #005295;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+  margin: 5px;
+}
+
+#content #dropFile.overlay {
+  border-style: dashed;
+  background-color: #0099FF;
+}
+
+#content #dropFile span {
+  display: inline-block;
+}
+
+#content #dropFile a, #content #dropFile b {
+  display: inline-block;
+  margin: 0;
+  padding: 7px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#content #dropFile a {
+  text-decoration: underline;
+}
+
+#content #dropFile input[type=button] {
+  display: inline-block;
+  float: right;
+  background: #FFFFFF;
+  color: #005295;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #FFFFFF;
+  margin: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  min-width: 50px;
+  cursor: pointer;
+}
+
+#content #dropFile ul {
+  list-style: none;
+  margin: 0 0 10px 30px;
+}
+
+#content #dropFile ul li {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 5px;
+  padding: 0px;
+}
+
+#content #dropFile ul li a {
+  font-size: 0.9em;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px 5px 0px 0px;
+}
+
+/**
+ * Submit button
+ */
+#content #submitPanel {
+  clear: both;
+  margin: 20px auto 40px auto;
+  padding: 7px;
+  padding-top: 5px;
+  border: 1px solid #005295;
+  color: #005295;
+  background-color: #DFE3E4;
+  font-size: 1em;
+  text-align: center;
+}
+
+#content #submitPanel button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #005295;
+  background-color: #FFFFFF;
+  color: #005295;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/**
+ * Notes
+ */
+#content #notes div {
+  margin-top: 15px;
+}
+ 
+#content #notes span.label {
+  float: left;
+}
+
+#content #notes span.text {
+  display: block;
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+#content #notes span.text textarea {
+  width: 97%;
+}
+
+/**
+ * This is for building the panels
+ */
+button.accordion {
+  background-color: #DFE3E4;
+  color: #005295;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #005295;
+  text-align: left;
+  outline: none;
+  font-size: 1.1em;
+  transition: 0.4s;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+button.accordion:after {
+  font-family: 'FontAwesome';
+  padding-top: 2px;
+  content: "\f054";
+  color: inherit;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+button.accordion.active:after {
+  content: "\f078";
+}
+
+div.panel {
+  display: none;
+  padding: 0 18px;
+}

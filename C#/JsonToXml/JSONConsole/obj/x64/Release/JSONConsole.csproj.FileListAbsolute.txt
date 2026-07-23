@@ -1,0 +1,12 @@
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JSONConsole\bin\x64\Release\JSONConsole.exe.config
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JSONConsole\bin\x64\Release\JSONConsole.exe
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JSONConsole\bin\x64\Release\JsonToXml.dll
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JSONConsole\bin\x64\Release\Newtonsoft.Json.dll
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JSONConsole\bin\x64\Release\Newtonsoft.Json.xml
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JSONConsole\obj\x64\Release\JSONConsole.csproj.AssemblyReference.cache
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JSONConsole\obj\x64\Release\JSONConsole.csproj.SuggestedBindingRedirects.cache
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JSONConsole\obj\x64\Release\JSONConsole.csproj.CoreCompileInputs.cache
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JSONConsole\obj\x64\Release\JSONConsole.csproj.CopyComplete
+C:\ANTIC\GIT\Compass Programs\JsonToXml\JSONConsole\obj\x64\Release\JSONConsole.exe
+C:\ANTIC\GIT\Compass\common\prog\JSONConsole.exe.config
+C:\ANTIC\GIT\Compass\common\prog\JSONConsole.exe
