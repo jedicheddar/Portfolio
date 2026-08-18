@@ -9,7 +9,7 @@ def clear_screen():
 def build_gallow(missed):
   clear_screen()
   print(" +---+")
-  print(" {0}  \\|".format("|" if missed >= 1 else " "))
+  print(" |  \\|")
   print(" {0}   |".format("O" if missed >= 1 else " "))
   print("{0}{1}{2}  |".format("/" if missed >= 2 else " ", "|" if missed >=3 else " ", "\\" if missed >= 4 else " "))
   print("{0} {1}  |".format("/" if missed >= 5 else " ", "\\" if missed >= 6 else " "))
@@ -39,11 +39,14 @@ def show_stats(master_string, failed, success):
 
   # for the characters in the string
   for char in master_string:
-    if char in success:
+    if char.lower() in success:
       print(char, end=" ")
       letter_count += 1
     else:
-      print("_", end=" ")
+      if char == " ":
+        print(" ", end=" ")
+      else:
+        print("_", end=" ")
   print()
   print()
 
@@ -55,9 +58,9 @@ def show_stats(master_string, failed, success):
   print()
   print()
 
-  return letter_count == len(master_string)
+  return letter_count == len(master_string.replace(" ", ""))
   
-master_string = input("Enter the word to guess: ").lower()
+master_string = input("Enter the word/phrase to guess: ")
 failed = []
 success = []
 
@@ -71,8 +74,8 @@ while i < MAX_FAILED_GUESSES:
 
   letter = ask_letter(failed, success)
   if letter != "-1":
-    if letter in master_string:
-      success.append(letter)
+    if letter.lower() in master_string.lower():
+      success.append(letter.lower())
     else:
       failed.append(letter)
       i += 1
