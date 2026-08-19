@@ -71,9 +71,8 @@ i = 0
 while i < MAX_FAILED_GUESSES:
   clear_screen()
   build_gallow(len(failed))
-  if len(failed) > 0 or len(success) > 0:
-    if show_stats(master_string, failed, success):
-      break
+  if show_stats(master_string, failed, success):
+    break
 
   letter = ask_letter(failed, success)
   if letter != "-1":
@@ -86,3 +85,4 @@ while i < MAX_FAILED_GUESSES:
 clear_screen()
 build_gallow(len(failed))
 show_stats(master_string, failed, success)
+input()

@@ -17,3 +17,5 @@ if palindrone:
   print("The word/phrase is a palindrone")
 else:
   print("The word/phrase is not a palindrone")
+  
+input()
