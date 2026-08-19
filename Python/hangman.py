@@ -36,17 +36,20 @@ def ask_letter(failed, success):
 
 def show_stats(master_string, failed, success):
   letter_count = 0
+  master_string_without_symbols = "".join([char for char in master_string if char.isalpha()]).lower()
 
   # for the characters in the string
   for char in master_string:
     if char.lower() in success:
       print(char, end=" ")
       letter_count += 1
+    elif char.lower() not in master_string_without_symbols:
+      print(char, end=" ")
     else:
-      if char == " ":
-        print(" ", end=" ")
-      else:
-        print("_", end=" ")
+        if char == " ":
+          print(" ", end=" ")
+        else:
+          print("_", end=" ")
   print()
   print()
 
@@ -58,7 +61,7 @@ def show_stats(master_string, failed, success):
   print()
   print()
 
-  return letter_count == len(master_string.replace(" ", ""))
+  return letter_count == len(master_string_without_symbols)
   
 master_string = input("Enter the word/phrase to guess: ")
 failed = []
