@@ -1,10 +1,8 @@
-name: Helllo World
-
+name: Hello World
 on:
-  workflow_dispatch:
-
+  workflow_dispatch: # This registers the trigger with GitHub
 jobs:
-  say-hello:
-    runs-on: ubuntu-24.04
+  placeholder:
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World"
